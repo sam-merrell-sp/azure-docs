@@ -23,7 +23,7 @@ See [Create diagnostic settings to send platform logs and metrics to different d
 
 ## Retention Period 
 
-Activity log events are retained in Azure for **90 days** and then deleted. There is no charge for entries during this time regardless of volume. For more functionality such as longer retention, you should create a diagnostic setting and route the entires to another location based on your needs. See the criteria in the earlier section of this article. 
+Activity log events are retained in Azure for **90 days** and then deleted. There is no charge for entries during this time regardless of volume. For more functionality such as longer retention, you should create a diagnostic setting and route the entries to another location based on your needs. See the criteria in the earlier section of this article. 
 
 ## View the Activity log
 You can access the Activity log from most menus in the Azure portal. The menu that you open it from determines its initial filter. If you open it from the **Monitor** menu, then the only filter will be on the subscription. If you open it from a resource's menu, then the filter is set to that resource. You can always change the filter though to view all other entries. Select **Add Filter** to add more properties to the filter.
